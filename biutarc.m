@@ -1,5 +1,5 @@
 function [risultati]=biutarc(freccia_su_luce,geometria)
-	%freccia_su_luce (float) = rise over span ratio
+	%freccia_su_luce (float) = rise over span ratio of the arch
 	%geometria (string) = name of the model you want to be printed in the txt output file
 	%Parameters: constant for all beams
 		E = 300000;	b=40;	h=80;		A = b*h;	I = (b*h^3)/12;		fc= -500;		ft=30;		K1C=100;    
